@@ -1,0 +1,79 @@
+.App{
+    background-image: linear-gradient(lightblue,pink,white);
+    height: 100vh;
+    width: 100%;
+    /* position: relative; */
+    margin: 0;
+    
+}
+
+.boxdiv{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    flex-direction: row;
+}
+
+.mybox{
+    
+    border: 4px solid black;
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    background-color: skyblue;
+}
+
+.span{
+    text-decoration: line-through;
+    color: red;
+}
+
+.mybox1{
+
+    border: 4px solid black;
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    margin-left: 550px;
+    background-color: violet;
+}
+
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+.but1{
+    /* position: relative; */
+    height: 90px;
+    width: 500px;
+    background-color: cyan;
+    border-radius: 25px;
+    margin: 1%;
+}
+.but2{
+    position: relative;
+    height: 90px;
+    width: 500px;
+    background-color: cyan;
+    border-radius: 25px;
+    margin: 5%;
+}
+.but1:hover{
+    background-color: purple;
+}
+.but2:hover{
+    background-color: purple;
+}
+
+.butcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
